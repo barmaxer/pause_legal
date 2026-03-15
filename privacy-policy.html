@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Pause App</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      color: #1a1a2e;
+      line-height: 1.7;
+      background: #f9f9fb;
+    }
+    h1 { color: #3F51B5; font-size: 2rem; margin-bottom: 4px; }
+    h2 { color: #3F51B5; font-size: 1.2rem; margin-top: 32px; }
+    .updated { color: #888; font-size: 0.9rem; margin-bottom: 32px; }
+    a { color: #3F51B5; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .highlight {
+      background: #e8eaf6;
+      border-left: 4px solid #3F51B5;
+      padding: 12px 16px;
+      border-radius: 4px;
+      margin: 24px 0;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: March 15, 2026</p>
+
+<div class="highlight">
+  <strong>Pause</strong> is a mindfulness app that helps you pause before opening distracting apps.
+  We are committed to protecting your privacy. This policy explains what data we collect, why, and how it is used.
+</div>
+
+<h2>1. Information We Collect</h2>
+<p>We collect the minimum data necessary to provide the service:</p>
+<ul>
+  <li><strong>Usage Statistics (PACKAGE_USAGE_STATS):</strong> We request access to app usage data solely to detect when you attempt to open apps you have chosen to monitor. This data is processed <em>locally on your device only</em> and is never transmitted to our servers.</li>
+  <li><strong>Accessibility Service (ACCESSIBILITY_SERVICE):</strong> We use the Android Accessibility Service to display the pause screen when a monitored app is opened. This permission allows us to detect foreground app changes. We do not read any content from other apps, capture keystrokes, or transmit any accessibility data.</li>
+  <li><strong>Purchase Information:</strong> When you subscribe to Pause Premium, payment is processed by RevenueCat and the Google Play billing system. We receive anonymized subscription status (active/inactive) but never your payment card or financial details.</li>
+</ul>
+
+<h2>2. How We Use Your Data</h2>
+<ul>
+  <li>To detect app launches and show the mindfulness pause screen</li>
+  <li>To track your personal statistics (pauses completed, time saved) — stored locally on device</li>
+  <li>To manage your subscription status via Google Firebase</li>
+</ul>
+
+<h2>3. Data Storage and Sharing</h2>
+<p>All usage statistics and behavioral data are stored exclusively on your device using local storage (SharedPreferences / SQLite). We do <strong>not</strong> upload, sell, or share your personal usage data with any third parties.</p>
+<p>We use the following third-party services:</p>
+<ul>
+  <li><strong>RevenueCat</strong> — for subscription management. <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a></li>
+  <li><strong>Google Play Billing</strong> — for payment processing. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+</ul>
+
+<h2>4. Permissions Explained</h2>
+<ul>
+  <li><strong>PACKAGE_USAGE_STATS:</strong> Required to know which app you are opening, so we can show the pause screen. Only used on-device.</li>
+  <li><strong>BIND_ACCESSIBILITY_SERVICE:</strong> Required to intercept app launches and overlay the pause screen. We do not monitor, record, or transmit anything from other apps.</li>
+  <li><strong>INTERNET:</strong> Used only to communicate with RevenueCat for subscription validation.</li>
+  <li><strong>FOREGROUND_SERVICE:</strong> Used to keep the monitoring service running while the app is in the background.</li>
+</ul>
+
+<h2>5. Children's Privacy</h2>
+<p>Pause is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us.</p>
+
+<h2>6. Data Deletion</h2>
+<p>You can delete all locally stored statistics at any time within the app via <strong>Settings → Delete Statistics</strong>. Uninstalling the app will remove all locally stored data.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the app after changes constitutes acceptance of the new policy.</p>
+
+<h2>8. Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us at:<br/>
+📧 <a href="mailto:barmaxer@gmail.com">barmaxer@gmail.com</a></p>
+
+</body>
+</html>
